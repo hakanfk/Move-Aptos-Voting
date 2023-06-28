@@ -1,0 +1,9 @@
+[package]
+name = 'todo_app'
+version = '1.0.0'
+[dependencies.AptosFramework]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'aptos-node-v1.5.0'
+subdir = 'aptos-move/framework/aptos-framework'
+[addresses]
+hakan = '0x61'
